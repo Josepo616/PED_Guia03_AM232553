@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\simulador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|solutionrelative:simulador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\simulador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|solutionrelative:simulador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|c:\\users\\josem\\onedrive\\desktop\\udb\\ingenier\u00EDa en ciencias de la computaci\u00F3n (v)\\a\u00F1o 2025\\ciclo 01\\ped\\guia de ejercicios 3\\simulador grafos y recorridos\\guia 11 grafos proc\\cgrafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|solutionrelative:cgrafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\cvertice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|solutionrelative:cvertice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\carco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|solutionrelative:carco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\clista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|solutionrelative:clista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\vertice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|solutionrelative:vertice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\vertice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41006E3-87F9-4B96-BAF4-AFDF42D06E0A}|Guia 10 Grafos Proc.csproj|solutionrelative:vertice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CGrafo.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\CGrafo.cs",
+              "RelativeDocumentMoniker": "CGrafo.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\CGrafo.cs",
+              "RelativeToolTip": "CGrafo.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAApwKIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T00:25:00.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Simulador.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\Simulador.cs",
+              "RelativeDocumentMoniker": "Simulador.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\Simulador.cs",
+              "RelativeToolTip": "Simulador.cs",
+              "ViewState": "AgIAAKABAAAAAAAAAAAgwLIBAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:18:33.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Simulador.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\Simulador.cs",
+              "RelativeDocumentMoniker": "Simulador.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\Simulador.cs [Design]",
+              "RelativeToolTip": "Simulador.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T14:52:14.04Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Vertice.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\Vertice.cs",
+              "RelativeDocumentMoniker": "Vertice.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\Vertice.cs",
+              "RelativeToolTip": "Vertice.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T02:12:51.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vertice.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\Vertice.cs",
+              "RelativeDocumentMoniker": "Vertice.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\Vertice.cs [Design]",
+              "RelativeToolTip": "Vertice.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T02:00:00.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CLista.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\CLista.cs",
+              "RelativeDocumentMoniker": "CLista.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\CLista.cs",
+              "RelativeToolTip": "CLista.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwJkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T00:24:36.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CVertice.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\CVertice.cs",
+              "RelativeDocumentMoniker": "CVertice.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\CVertice.cs",
+              "RelativeToolTip": "CVertice.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T00:09:42.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CArco.cs",
+              "DocumentMoniker": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\CArco.cs",
+              "RelativeDocumentMoniker": "CArco.cs",
+              "ToolTip": "C:\\Users\\josem\\OneDrive\\Desktop\\UDB\\Ingenier\u00EDa en Ciencias de la Computaci\u00F3n (V)\\A\u00F1o 2025\\Ciclo 01\\PED\\Guia de ejercicios 3\\Simulador grafos y recorridos\\Guia 11 Grafos Proc\\CArco.cs",
+              "RelativeToolTip": "CArco.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T23:56:40.438Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
