@@ -160,31 +160,26 @@ namespace Guia_10_Grafos_Proc
             }
         }
 
-        public List<CVertice> Dijkstra(CVertice origen, CVertice destino)
+        public (Dictionary<CVertice, int> distancias, Dictionary<CVertice, CVertice> anteriores) Dijkstra(CVertice origen)
         {
             var distancias = new Dictionary<CVertice, int>();
             var anteriores = new Dictionary<CVertice, CVertice>();
-            var nodos = new List<CVertice>();
+            var nodosPendientes = new List<CVertice>();
 
-            // Inicializamos distancias
             foreach (CVertice v in this.nodos)
             {
                 distancias[v] = int.MaxValue;
                 anteriores[v] = null;
-                nodos.Add(v);
+                nodosPendientes.Add(v);
             }
 
             distancias[origen] = 0;
 
-            while (nodos.Count > 0)
+            while (nodosPendientes.Count > 0)
             {
-                // Ordenar nodos por distancia más corta conocida
-                nodos.Sort((x, y) => distancias[x] - distancias[y]);
-                CVertice actual = nodos[0];
-                nodos.Remove(actual);
-
-                if (actual == destino)
-                    break;
+                nodosPendientes.Sort((x, y) => distancias[x] - distancias[y]);
+                CVertice actual = nodosPendientes[0];
+                nodosPendientes.RemoveAt(0);
 
                 foreach (CArco arco in actual.ListaAdyacencia)
                 {
@@ -198,9 +193,14 @@ namespace Guia_10_Grafos_Proc
                 }
             }
 
-            // Reconstruir el camino
+            return (distancias, anteriores);
+        }
+
+        public List<CVertice> ReconstruirRuta(CVertice destino, Dictionary<CVertice, CVertice> anteriores)
+        {
             List<CVertice> ruta = new List<CVertice>();
             CVertice temp = destino;
+
             while (temp != null)
             {
                 ruta.Insert(0, temp);
@@ -208,6 +208,24 @@ namespace Guia_10_Grafos_Proc
             }
 
             return ruta;
+        }
+        public CVertice ObtenerVerticeMasLejano(CVertice origen)
+        {
+            var (distancias, _) = Dijkstra(origen);
+
+            CVertice masLejano = null;
+            int distanciaMax = -1;
+
+            foreach (var par in distancias)
+            {
+                if (par.Value != int.MaxValue && par.Value > distanciaMax)
+                {
+                    masLejano = par.Key;
+                    distanciaMax = par.Value;
+                }
+            }
+
+            return masLejano;
         }
 
     }

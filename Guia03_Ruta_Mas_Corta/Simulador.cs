@@ -411,29 +411,33 @@ else
 
         private void bntRutaCorta_Click(object sender, EventArgs e)
         {
-            if (txtBuscar.Text.Trim() == "" || txtDestino.Text.Trim() == "")
+            CVertice origen = grafo.BuscarVertice(txtBuscar.Text.Trim());
+            CVertice destino = grafo.BuscarVertice(txtDestino.Text.Trim());
+
+            if (origen == null)
             {
-                MessageBox.Show("Debe ingresar tanto el nodo origen como el destino.",
+                MessageBox.Show("Debe ingresar un vértice de origen válido.",
                     "Ruta más corta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            CVertice origen = grafo.BuscarVertice(txtBuscar.Text);
-            CVertice destino = grafo.BuscarVertice(txtDestino.Text);
+            var (distancias, anteriores) = grafo.Dijkstra(origen);
 
-            if (origen == null || destino == null)
+            if (destino == null)
             {
-                MessageBox.Show("Uno o ambos vértices no existen en el grafo.",
-                    "Ruta más corta", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                destino = grafo.ObtenerVerticeMasLejano(origen);
+                if (destino == null)
+                {
+                    MessageBox.Show("No se pudo determinar un vértice de destino alcanzable.");
+                    return;
+                }
             }
 
-            List<CVertice> ruta = grafo.Dijkstra(origen, destino);
+            List<CVertice> ruta = grafo.ReconstruirRuta(destino, anteriores);
 
-            if (ruta.Count == 0 || ruta[0] != origen)
+            if (ruta.Count <= 1)
             {
-                MessageBox.Show("No existe ruta entre los vértices seleccionados.",
-                    "Ruta más corta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("No se encontró una ruta al destino.");
                 return;
             }
 
@@ -441,7 +445,7 @@ else
             foreach (CVertice v in ruta)
             {
                 v.Colorear(g);
-                Thread.Sleep(500); // Para visualización
+                Thread.Sleep(500);
                 v.DibujarVertice(g);
             }
 
@@ -451,6 +455,9 @@ else
             txtBuscar.Clear();
             txtDestino.Clear();
         }
+
+
+
 
 
         private void pizarra_MouseLeave(object sender, EventArgs e)
